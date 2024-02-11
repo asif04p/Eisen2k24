@@ -1,34 +1,26 @@
-import React, { useEffect } from 'react';
-import gsap from 'gsap';
-import "../Preloaders/Preloader.css";
+// Preloader.js
+import React, { useEffect, useState } from 'react';
+import './Preloader.css';
 
 const Preloader = () => {
+  const [loaded, setLoaded] = useState(false);
+
   useEffect(() => {
-    // Text to be typed
-    const textToType = "E I S E N' 2 4";
+    const timeout = setTimeout(() => {
+      setLoaded(true);
+    }, 5000); // Adjust the timeout as needed
 
-    // Create a timeline
-    const tl = gsap.timeline({ repeat: 0, onComplete: completeAnimation });
-
-    // Split the text into characters
-    const chars = textToType.split("");
-
-    // Append each character to the timeline with a typing effect
-    chars.forEach((char, index) => {
-      tl.to("#preloader", { textContent: textToType.substring(0, index + 1), duration: 0.5, ease: "power1.inOut" });
-    });
-
-    function completeAnimation() {
-      // You can perform any action after the typing animation completes
-      console.log("Preloader animation complete!");
-      // For example, you can navigate to the main page using react-router or perform other actions
-    }
-  }, []); // Run only once when the component mounts
+    return () => clearTimeout(timeout);
+  }, []);
 
   return (
-    <div id="preloader" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '24px', fontWeight: 'bold', color: '#333' }}>
-      {/* Initial text content, this will be updated by GSAP */}
-      Loading...
+    <div className={`preloader ${loaded ? 'loaded' : ''}`}>
+      <div className="logo-container">
+        <img src="https://eisen2k24.online/static/media/website-logo.db480474fee8e4a75511.jpg" alt="Logo" />
+      </div>
+      <div className="text-container">
+        <p>EISEN'24</p>
+      </div>
     </div>
   );
 };
