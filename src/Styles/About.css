@@ -1,0 +1,114 @@
+.about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutTop {
+  width: 100%;
+  min-height: 40vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.aboutBottom p {
+  max-width: 1200px;
+  text-align: center;
+}
+
+.about .aboutBottom h1 {
+  font-weight: 400;
+  font-size: 70px;
+  color: black;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-40px);
+}
+
+.jntugv-image{
+  height: 120px;
+  width: 120px;
+}
+button {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: #121619;
+  height: 50px;
+  width: 180px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.newSection {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.aboutDepartment {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.aboutDepartment h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.aboutDepartment p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.personsInvolved {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.personsInvolved h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.personSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row; /* Update to row */
+}
+
+.personCard {
+  border: 3px solid black; 
+  border-radius: 8px;
+  overflow: hidden;
+  /* width: 35%; */
+  margin: 15px 10px 20px 15px;
+  box-sizing: border-box;
+}
+
+
+.personCard img {
+  width: 100%;
+  height: auto;
+}
+
+.personCard h3 {
+  margin: 10px 0;
+}
+
+.personCard p {
+  margin: 5px 0;
+}

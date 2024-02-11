@@ -1,0 +1,53 @@
+.events-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  border: 3px solid black;
+  justify-content: center;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-info {
+  padding: 15px;
+}
+
+.card h2 {
+  margin: 0;
+    font-size: 18px;
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .events-container {
+    display: flex;
+   flex-direction: column;
+  }
+  .section {
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  .registration-section {
+    text-align: center;
+  }
+
+  .registration-button {
+    margin-top: 10px;
+  }
+}
