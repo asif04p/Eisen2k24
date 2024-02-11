@@ -7,7 +7,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Events from './Pages/Events';
 import Contact from './Pages/Contact';
-import Preloader from './Preloader';  // Import the Preloader component
+import Preloader from './Components/Preloaders/Preloader';  // Import the Preloader component
 import { Routes, Route, BrowserRouter as Router, Navigate } from 'react-router-dom';
 
 function App() {
