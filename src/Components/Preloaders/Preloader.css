@@ -20,9 +20,20 @@
 }
 
 .logo-container img {
-  width: 150px; /* Set your logo width */
-  height: auto;
+  width: 250px; /* Set your logo width */
+  height: 250px;
+  animation: logoAnimation 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+ /* Adjust the animation duration and other properties as needed */
 }
+
+@keyframes logoAnimation {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+} 
 
 .text-container {
   margin-top: 20px;
