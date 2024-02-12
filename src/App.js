@@ -1,4 +1,3 @@
-// App.js
 import './App.css';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
@@ -10,6 +9,8 @@ import { Routes, Route, BrowserRouter as Router, Navigate } from 'react-router-d
 
 function App() {
   return (
+    <div className="App">
+      <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
