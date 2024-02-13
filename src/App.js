@@ -1,4 +1,3 @@
-// App.js
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import Navbar from './Components/Navbar';
@@ -8,6 +7,7 @@ import About from './Pages/About';
 import Events from './Pages/Events';
 import Contact from './Pages/Contact';
 import Preloader from './Components/Preloaders/Preloader';
+import NotFound from './Components/Error/NotFound';
 import { Routes, Route, BrowserRouter as Router, Navigate } from 'react-router-dom';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      {contentLoaded ? ( // Render the content only if loading is complete
+      {contentLoaded ? (
         <Router>
           <Navbar />
           <Routes>
@@ -33,6 +33,8 @@ function App() {
             <Route path="/About" element={<About />} />
             <Route path="/Events" element={<Events />} />
             <Route path="/Contact" element={<Contact />} />
+            {/* Catch-all route for paths not matching any above */}
+            <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
         </Router>
