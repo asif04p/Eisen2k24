@@ -5,6 +5,8 @@ import Footer from './Components/Footer';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Events from './Pages/Events';
+import Sponsors from './Pages/Sponsors';
+import SpotGames from './Pages/SpotGames';
 import Contact from './Pages/Contact';
 import Preloader from './Components/Preloaders/Preloader';
 import NotFound from './Components/Error/NotFound';
@@ -32,6 +34,8 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/Events" element={<Events />} />
+            <Route path="/Sponsors" element={<Sponsors/>}/>
+            <Route path="/SpotGames" element={<SpotGames/>}/>
             <Route path="/Contact" element={<Contact />} />
             {/* Catch-all route for paths not matching any above */}
             <Route path="*" element={<NotFound />} />

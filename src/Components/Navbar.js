@@ -10,10 +10,12 @@ const Navbar = () => {
         <img src={logo} alt="Website Logo" href="/" style={{ width: '50px', height: 'auto' }} />
         </Link>
       <div className="nav-links">
-        <a href="/home">Home</a>
-        <a href="/about">About</a>
-        <a href="/events">Events</a>
-        <a href="/contact">Contact Us</a>
+        <a href="/Home">Home</a>
+        <a href="/About">About</a>
+        <a href="/SpotGames">Spot Games</a>
+        <a href="/Sponsors">Sponsors</a>
+        <a href="/Events">Events</a>
+        <a href="/Contact">Contact Us</a>
       </div>
     </div>
   );

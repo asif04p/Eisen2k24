@@ -13,7 +13,7 @@ function Home() {
             <br/>
  the Department of Metallurgical Engineering at JNTU-GV.</p>
         <p> To know more, about Eisen click on the Events button below.</p>
-        <Link to="/events"> 
+        <Link to="/events">  
         <button>Events</button>
         </Link>
         </div>  
