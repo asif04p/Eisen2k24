@@ -5,3 +5,26 @@
 .card-info{
     display: flexbox;
 }
+
+.outer-div{
+    padding-left: 580px;
+}
+
+@media only screen and (max-width: 600px) {
+    .events-container {
+      display: flex;
+     flex-direction: column;
+    }
+    
+    .outer-div{
+        padding: 60px;
+    }
+  
+    .registration-section {
+      text-align: center;
+    }
+  
+    .registration-button {
+      margin-top: 10px;
+    }
+  }

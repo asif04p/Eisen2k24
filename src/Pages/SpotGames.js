@@ -7,6 +7,7 @@ function SpotGames() {
   return (
     <>
     <h1 className="main-heading">Spot Games</h1>
+    <div className="outer-div"> 
     <div className="card">
     <img
       src="https://m.media-amazon.com/images/M/MV5BM2U5ZTIxMzUtMmQ5MC00YTdhLThjOWYtODUzNDQ0MThmMmQ4XkEyXkFqcGdeQXVyNzg5OTk2OA@@._V1_.jpg"
@@ -49,7 +50,7 @@ function SpotGames() {
   </div>
   <div className="card">
     <img
-      src={process.env.PUBLIC_URL + '/3DPrinting.jpg'}
+      src={process.env.PUBLIC_URL + '/makemefamous.jpg'}
       alt="Workshop 1"
     />
     <div className="card-info">
@@ -106,6 +107,21 @@ function SpotGames() {
       <button className="registration-button">Register</button>
     </Link>
     </div>
+  </div>
+  <div className="card">
+    <img
+      src="https://img.freepik.com/free-vector/casino-games-design_24908-60957.jpg?size=626&ext=jpg&ga=GA1.1.1803636316.1701216000&semt=ais"
+      alt="Workshop 1"
+    />
+    <div className="card-info">
+      <h2>Lottery</h2>
+      <p> Entry Fees: 30/-</p>
+      <p> Prize: Free Trip to Vizag (or) Araku</p>
+    <Link to="https://docs.google.com/forms/d/e/1FAIpQLScaUbWiRmG1zmevJa-euGX6BzXl8r-CPoSXGlhQhi_a8D3WLg/viewform?usp=sf_link" target="_blank">
+      <button className="registration-button">Register</button>
+    </Link>
+    </div>
+  </div>
   </div>
 
   </>
