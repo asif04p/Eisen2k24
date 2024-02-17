@@ -1,16 +1,6 @@
 import React from 'react';
 import Jntugvsmalllogo from '../Assets/jntugv-logo.jpg';
 import JntugvLogo from '../Assets/about-image.jpg';
-// import PersonOne from '../Assets/personone.png';
-// import PersonTwo from '../Assets/persontwo.png';
-// import PersonThree from '../Assets/personthree.png';
-// import PersonFour from '../Assets/persronfour.png';
-// import PersonFive from '../Assets/personfive.png';
-// import PersonSix from '../Assets/personsix.png';
-// import PersonSeven from '../Assets/personseven.png';
-// import PersonEight from '../Assets/personeight.png';
-// import PersonNine from '../Assets/personnine.png';
-// import PersonTen from '../Assets/personten.png'; 
 import BrochureFile from '../Assets/Brochure.pdf'; // Update with the correct relative path
 import '../Styles/About.css';
 
@@ -87,90 +77,12 @@ function About() {
         </div>
         <br/>
         <br/>
+        <p className="thanks-note"> Thanks to the Students of <b> Metallurgy Department </b> for making this event happen!!</p>
+            <img src={process.env.PUBLIC_URL + '/dept-1.jpg'} alt="department-students" className="dept-image"/>
+            <img src={process.env.PUBLIC_URL + '/dept-2.jpg'} alt="department-students" className="dept-image"/>
         
-        {/* <div className="personsInvolved">
-          <h2 className="PersonsInvolvedh2">Persons Who Involved in Making It Work</h2>
-          
-          <div className="personSection">
-            
-            <div className="personCard">
-            <img src={PersonOne} alt="Person 1" />
-              <h3>Person 1</h3>
-              <p>Role: Engineer</p>
-            </div>
-            
-            <div className="personCard">
-            <img src={PersonTwo} alt="Person 2" />
-              <h3>Person 2</h3>
-              <p>Role: Designer</p>
-            </div>
-           
-            <div className="personCard">
-            <img src={PersonThree} alt="Person 3" />
-              <h3>Person 3</h3>
-              <p>Role: Project Manager</p>
-            </div>
-            
-            <div className="personCard">
-            <img src={PersonThree} alt="Person 3" />
-              <h3>Person 3</h3>
-              <p>Role: Project Manager</p>
-            </div>
-          </div>
-         
-          <div className="personSection">
-           
-            <div className="personCard">
-            <img src={PersonFour} alt="Person 4" />
-              <h3>Person 4</h3>
-              <p>Role: Developer</p>
-            </div>
-            
-            <div className="personCard">
-            <img src={PersonFive} alt="Person 5" />
-              <h3>Person 5</h3>
-              <p>Role: Researcher</p>
-            </div>
-            
-            <div className="personCard">
-            <img src={PersonSix} alt="Person 6" />
-              <h3>Person 6</h3>
-              <p>Role: Analyst</p>
-            </div>
-            
-            <div className="personCard">
-            <img src={PersonSix} alt="Person 6" />
-              <h3>Person 6</h3>
-              <p>Role: Analyst</p>
-            </div>
-          </div>
-         
-          <div className="personSection">
-            
-            <div className="personCard">
-            <img src={PersonSeven} alt="Person 7" />
-              <h3>Person 7</h3>
-              <p>Role: Tester</p>
-            </div>
-            
-            <div className="personCard">
-            <img src={PersonEight} alt="Person 8" />
-              <h3>Person 8</h3>
-              <p>Role: Coordinator</p>
-            </div>
-           
-            <div className="personCard">
-            <img src={PersonNine} alt="Person 9" />
-              <h3>Person 9</h3>
-              <p>Role: Support Staff</p>
-            </div>
-            <div className="personCard">
-            <img src={PersonTen} alt="Person 10" />
-              <h3>Person 10</h3>
-              <p>Role: Coordinator</p>
-            </div>
-          </div>
-        </div> */}
+        <br/>
+        
       </div>
     </div>
   );

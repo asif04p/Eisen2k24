@@ -23,7 +23,7 @@ function SpotGames() {
         Per Kill: 15/- 
         </p> 
         <br/>
-    <Link to="https://docs.google.com/forms/d/e/1FAIpQLScaUbWiRmG1zmevJa-euGX6BzXl8r-CPoSXGlhQhi_a8D3WLg/viewform?usp=sf_link" target="_blank">
+    <Link to="https://docs.google.com/forms/d/1fI_qNdyOu8P2qz3uaBAfQ9ptFkBGYzRe_zQo7XI0Jz0/viewform?edit_requested=true" target="_blank">
       <button className="registration-button">Register</button>
     </Link>
     </div>
@@ -43,7 +43,7 @@ function SpotGames() {
         Per Kill: 15/- 
         </p>
         <br/>
-    <Link to="https://docs.google.com/forms/d/e/1FAIpQLScaUbWiRmG1zmevJa-euGX6BzXl8r-CPoSXGlhQhi_a8D3WLg/viewform?usp=sf_link" target="_blank">
+    <Link to="https://docs.google.com/forms/d/1fI_qNdyOu8P2qz3uaBAfQ9ptFkBGYzRe_zQo7XI0Jz0/viewform?edit_requested=true" target="_blank">
       <button className="registration-button">Register</button>
     </Link>
     </div>
@@ -57,7 +57,7 @@ function SpotGames() {
       <h2>Make Me Famous</h2>
       <p> Entry Fees: 50/- </p>
       <p> Prize Money: 800/- </p><br/>
-    <Link to="https://docs.google.com/forms/d/e/1FAIpQLScaUbWiRmG1zmevJa-euGX6BzXl8r-CPoSXGlhQhi_a8D3WLg/viewform?usp=sf_link" target="_blank">
+    <Link to="https://docs.google.com/forms/d/1fI_qNdyOu8P2qz3uaBAfQ9ptFkBGYzRe_zQo7XI0Jz0/viewform?edit_requested=true" target="_blank">
       <button className="registration-button">Register</button>
     </Link>
     </div>
@@ -75,7 +75,7 @@ function SpotGames() {
         Win: 1000/-
         </p>
         <br/>
-    <Link to="https://docs.google.com/forms/d/e/1FAIpQLScaUbWiRmG1zmevJa-euGX6BzXl8r-CPoSXGlhQhi_a8D3WLg/viewform?usp=sf_link" target="_blank">
+    <Link to="https://docs.google.com/forms/d/1fI_qNdyOu8P2qz3uaBAfQ9ptFkBGYzRe_zQo7XI0Jz0/viewform?edit_requested=true" target="_blank">
       <button className="registration-button">Register</button>
     </Link>
     </div>
@@ -89,7 +89,7 @@ function SpotGames() {
       <h2>Quiz</h2>
       <p> Entry Fees: 40/-</p> 
       <p> Prize: Gift </p>
-    <Link to="https://docs.google.com/forms/d/e/1FAIpQLScaUbWiRmG1zmevJa-euGX6BzXl8r-CPoSXGlhQhi_a8D3WLg/viewform?usp=sf_link" target="_blank">
+    <Link to="https://docs.google.com/forms/d/1fI_qNdyOu8P2qz3uaBAfQ9ptFkBGYzRe_zQo7XI0Jz0/viewform?edit_requested=true" target="_blank">
       <button className="registration-button">Register</button>
     </Link>
     </div>
@@ -103,7 +103,7 @@ function SpotGames() {
       <h2>Rubics Cube</h2>
       <p> Entry Fees: 40/-</p>
       <p> Prize: Gift</p>
-    <Link to="https://docs.google.com/forms/d/e/1FAIpQLScaUbWiRmG1zmevJa-euGX6BzXl8r-CPoSXGlhQhi_a8D3WLg/viewform?usp=sf_link" target="_blank">
+    <Link to="https://docs.google.com/forms/d/1fI_qNdyOu8P2qz3uaBAfQ9ptFkBGYzRe_zQo7XI0Jz0/viewform?edit_requested=true" target="_blank">
       <button className="registration-button">Register</button>
     </Link>
     </div>
@@ -117,7 +117,7 @@ function SpotGames() {
       <h2>Lottery</h2>
       <p> Entry Fees: 30/-</p>
       <p> Prize: Free Trip to Vizag (or) Araku</p>
-    <Link to="https://docs.google.com/forms/d/e/1FAIpQLScaUbWiRmG1zmevJa-euGX6BzXl8r-CPoSXGlhQhi_a8D3WLg/viewform?usp=sf_link" target="_blank">
+    <Link to="https://docs.google.com/forms/d/1fI_qNdyOu8P2qz3uaBAfQ9ptFkBGYzRe_zQo7XI0Jz0/viewform?edit_requested=true" target="_blank">
       <button className="registration-button">Register</button>
     </Link>
     </div>

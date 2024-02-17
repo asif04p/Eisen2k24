@@ -99,6 +99,10 @@ button {
   box-sizing: border-box;
 }
 
+.dept-image{
+  width: 100%;
+  height: auto;
+}
 
 .personCard img {
   width: 100%;
@@ -111,4 +115,8 @@ button {
 
 .personCard p {
   margin: 5px 0;
+}
+
+.thanks-note{
+  font-size: 30px;
 }
