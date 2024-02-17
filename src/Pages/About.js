@@ -78,7 +78,6 @@ function About() {
         <br/>
         <br/>
         <p className="thanks-note"> Thanks to the Students of <b> Metallurgy Department </b> for making this event happen!!</p>
-            <img src={process.env.PUBLIC_URL + '/dept-1.jpg'} alt="department-students" className="dept-image"/>
             <img src={process.env.PUBLIC_URL + '/dept-2.jpg'} alt="department-students" className="dept-image"/>
         
         <br/>
