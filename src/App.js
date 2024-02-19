@@ -30,6 +30,7 @@ function App() {
       {contentLoaded ? (
         <Router>
           <Navbar />
+          <Analytics />
           <Routes>
             <Route path="/" element={<Navigate to="/home" />} />
             <Route path="/home" element={<Home />} />
@@ -40,7 +41,6 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
             {/* Catch-all route for paths not matching any above */}
             <Route path="*" element={<NotFound />} />
-            <Analytics />
           </Routes>
           <Footer />
         </Router>
