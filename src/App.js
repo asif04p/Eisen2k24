@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
@@ -39,6 +40,7 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
             {/* Catch-all route for paths not matching any above */}
             <Route path="*" element={<NotFound />} />
+            <Analytics />
           </Routes>
           <Footer />
         </Router>
