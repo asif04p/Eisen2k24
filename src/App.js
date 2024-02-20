@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Analytics } from '@vercel/analytics/react';
 import './App.css';
+import Root from './Pages/root';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Home from './Pages/Home';
@@ -11,7 +12,7 @@ import SpotGames from './Pages/SpotGames';
 import Contact from './Pages/Contact';
 import Preloader from './Components/Preloaders/Preloader';
 import NotFound from './Components/Error/NotFound';
-import { Routes, Route, BrowserRouter as Router, Navigate } from 'react-router-dom';
+import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   const [contentLoaded, setContentLoaded] = useState(false);
@@ -32,7 +33,7 @@ function App() {
           <Navbar />
           <Analytics />
           <Routes>
-            <Route path="/" element={<Navigate to="/home" />} />
+            <Route path="/root" element={<Root/>} />
             <Route path="/home" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/Events" element={<Events />} />

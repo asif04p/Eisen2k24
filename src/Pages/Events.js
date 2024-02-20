@@ -94,12 +94,7 @@ function Events() {
             <h2>3D Printing</h2>
             <p> <b> Powders for additive manufacturing</b> <br/>
             <br/>
-              Dr. K.Gopala Krishna
-                B.E. (Met.), P.G.D. (TQM), M.S(I.T.), Ph.D.(Met., IIT Madras) 
-                Chief Scientistt 
-
-                Materials Engineering Division
-                CSIR - National Metallurgical Laboratory</p> 
+            Dr Kishore nath, Scientist G or H. From Missiles cluster, Hyderabad</p> 
           </div>
         </div>
         <div className="card">
