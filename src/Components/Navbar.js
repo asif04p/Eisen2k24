@@ -6,7 +6,7 @@ import "../Styles/Navbar.css";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <Link to="/root" className="logo">
+      <Link to="/" className="logo">
         <img src={logo} alt="Website Logo" href="/" style={{ width: '50px', height: 'auto' }} />
         </Link>
       <div className="nav-links">
