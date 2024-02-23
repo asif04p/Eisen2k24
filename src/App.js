@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import './App.css';
 import Root from './Pages/root';
 import Navbar from './Components/Navbar';
@@ -32,6 +33,7 @@ function App() {
         <Router>
           <Navbar />
           <Analytics />
+          <SpeedInsights/>
           <Routes>
             <Route path="/" element={<Root/>}/>
             <Route path="/home" element={<Home />} />
