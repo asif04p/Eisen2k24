@@ -1,53 +1,43 @@
-.main-heading{
-    text-align: center;
-}
-
 .title-sponsor-heading{
-    text-emphasis: none;
-    padding-left: 15px;
-}
-
-.platinum-sponsor-heading{
-    text-emphasis: none;
-    padding-left: 15px;
-}
-
-.golden-sponsor-heading{
-    padding-left: 15px;
-}
-
-.silver-sponsor-heading{
-    padding-left: 15px;
+    margin: 10px;
 }
 
 .title-sponsor-div{
-    border: 2px solid black;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding: auto;
+    border: 3px solid black;
+    margin: 10px;
+    flex-wrap: wrap;
 }
 
-.platinum-sponsor-div{
-    border: 2px solid black;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 10px;
+.title-sponsor-div img{
+    width: 500px;
+    height: auto;
+    margin-right: 20px;
 }
 
-.golden-sponsor-div{
-    border: 2px solid black;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 10px;
+.title-sponsor-div h2{
+    color: black;
+    font-size: 50px;
+    padding-left: 100px;
 }
 
-.silver-sponsor-div{
-    border: 2px solid black;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-}
+@media (max-width: 768px) {
 
-.title-sponsor-text{
-    padding-left: 5px;
-}
+    .title-sponsor-div img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .title-sponsor-div {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+  
+    .title-sponsor-div h2 {
+      font-size: 30px; 
+      padding-left: 150px;
+      margin-top: 10px; 
+    }
+  }
