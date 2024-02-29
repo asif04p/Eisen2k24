@@ -11,7 +11,7 @@ function Sponsors() {
     <h2 className="title-sponsor-heading">Title Sponsors</h2>
     <div className="title-sponsor-div">
       <img src={TitleSponsor} alt="Title-Sponsor"/>
-      <h2> Tata Steel </h2>
+      <h2> TATA STEEL </h2>
     </div>
 
     <br/>
