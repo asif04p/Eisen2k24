@@ -1,8 +1,8 @@
 import React from 'react';
 import "../Styles/Sponsors.css";
 import TitleSponsor from '../Assets/tata-steels.png';
-import CoSponsor1 from '../Assets/meta-gate.png';
-import CoSponsor2 from '../Assets/aurora-logo.png';
+import CoSponsor1 from '../Assets/meta-gate.jpeg'
+import CoSponsor2 from '../Assets/aurora-logo-web-1-1.png';
 
 
 function Sponsors() {
