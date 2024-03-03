@@ -2,6 +2,10 @@
     margin: 10px;
 }
 
+.co-sponsor-heading{
+    margin: 10px;
+}
+
 .title-sponsor-div{
     display: flex;
     align-items: center;
@@ -23,6 +27,21 @@
     padding-left: 50px;
 }
 
+.co-sponsor-div{
+    display: flex;
+    align-items: center;
+    padding: auto;
+    border: 3px solid black;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.co-sponsor-div img{
+    width: 500px;
+    height: auto;
+    margin-right: 20px;
+}
+
 @media (max-width: 768px) {
 
     .title-sponsor-div img{
@@ -35,9 +54,15 @@
       align-items: flex-start; 
     }
   
-    .title-sponsor-div h2 {
-      font-size: 30px; 
-      padding-left: 125px;
-      margin-top: 10px; 
+    .co-sponsor-div img{
+        max-width: 100%;
+        height: auto;
     }
+
+    .co-sponsor-div {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+
+
   }
