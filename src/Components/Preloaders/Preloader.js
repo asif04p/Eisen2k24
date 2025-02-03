@@ -1,6 +1,7 @@
 // Preloader.js
 import React, { useEffect, useState } from 'react';
 import '../Preloaders/Preloader.css';
+import Logo from '../src/Assets/website-logo.jpg';
 
 const Preloader = () => {
   const [loaded, setLoaded] = useState(false);
@@ -16,7 +17,7 @@ const Preloader = () => {
   return (
     <div className={`preloader ${loaded ? 'loaded' : ''}`}>
       <div className="logo-container">
-        <img src="../src/Assets/website-logo.jpg" alt="Logo" />
+        <img src={Logo} alt="Logo" />
       </div>
       <div className="text-container">
         {/* <p>EISEN'24</p> */}
