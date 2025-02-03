@@ -16,7 +16,7 @@ const Preloader = () => {
   return (
     <div className={`preloader ${loaded ? 'loaded' : ''}`}>
       <div className="logo-container">
-        <img src="https://eisen2k24.online/static/media/website-logo.db480474fee8e4a75511.jpg" alt="Logo" />
+        <img src="https://eisen2k24.vercel.app/static/media/website-logo.db480474fee8e4a75511.jpg" alt="Logo" />
       </div>
       <div className="text-container">
         {/* <p>EISEN'24</p> */}
